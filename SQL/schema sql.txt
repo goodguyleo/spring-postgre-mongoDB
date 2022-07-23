@@ -1,0 +1,11 @@
+-- -----------------------------------------------------
+-- Table "PERSON"
+-- -----------------------------------------------------
+CREATE TABLE PERSONAS (	
+	"name" VARCHAR(50) NOT NULL,
+	"last_name" VARCHAR(50) NOT NULL,
+	"document_type" VARCHAR(20) NOT NULL,
+	"document_id" INT NOT NULL,
+	"birthday" DATE NOT NULL,
+	"city​_of_birth" VARCHAR(50) NOT NULL,
+	PRIMARY KEY ("document_id"));
